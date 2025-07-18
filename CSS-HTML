@@ -1,0 +1,153 @@
+<!DOCTYPE html><html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Represalia World</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }body {
+        font-family: "Arial Black", sans-serif;
+        background: radial-gradient(circle at top, #1a0000 10%, #0d0d0d 90%);
+        color: #ff1a1a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding: 40px 20px;
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 55px;
+        margin-bottom: 25px;
+        color: #ff1a1a;
+        text-shadow: 0 0 30px #e60000, 0 0 60px #ff1a1a;
+        letter-spacing: 2.5px;
+        transition: transform 0.4s ease-in-out;
+        text-transform: uppercase;
+    }
+
+    h1:hover {
+        transform: scale(1.08);
+    }
+
+    .box {
+        background: rgba(17, 17, 17, 0.98);
+        border: 3px solid #8b0000;
+        border-radius: 20px;
+        padding: 40px;
+        width: 90%;
+        max-width: 850px;
+        box-shadow: 0 0 35px #8b0000, inset 0 0 15px #ff1a1a;
+        margin-bottom: 35px;
+        backdrop-filter: blur(5px);
+        transition: transform 0.4s, box-shadow 0.4s;
+    }
+
+    .box:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 50px #ff1a1a, inset 0 0 25px #e60000;
+    }
+
+    .category {
+        font-size: 28px;
+        margin: 20px 0 15px 0;
+        color: #ff3333;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        border-bottom: 3px solid #ff1a1a;
+        display: inline-block;
+        padding-bottom: 8px;
+    }
+
+    ul {
+        list-style: none;
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    li {
+        margin: 14px 0;
+        font-size: 20px;
+        line-height: 1.8;
+        position: relative;
+        padding-left: 25px;
+        color: #ffcccc;
+    }
+
+    li::before {
+        content: "\2022";
+        position: absolute;
+        left: 0;
+        color: #ff1a1a;
+        font-size: 28px;
+    }
+
+    .footer {
+        margin-top: 20px;
+        font-size: 15px;
+        color: #666;
+        text-align: center;
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 38px;
+        }
+        .category {
+            font-size: 22px;
+        }
+        li {
+            font-size: 16px;
+        }
+    }
+</style>
+
+</head>
+<body><h1>🔥 Represalia World</h1>
+
+<div class="box">
+    <div class="category">🧠 Xarakter Belgilari (10/10)</div>
+    <ul>
+        <li>His-tuyg‘ularni boshqarishda sovuqqonlik</li>
+        <li>Manipulyativ fikrlash</li>
+        <li>Boshqalarga nisbatan empatiya yo‘qligi</li>
+        <li>Portlashga tayyor jimlik (ichki agressiya)</li>
+        <li>O‘ch olish va strategik yondashuv</li>
+    </ul>
+</div>
+
+<div class="box">
+    <div class="category">🩸 Kazolik Xarakter Belgilari (8/10)</div>
+    <ul>
+        <li>Zo‘ravonlikka moyillik bor</li>
+        <li>Qasos olishga tayyorlik seziladi</li>
+        <li>Ichki portlash xavfi bor (qonxo‘rlikka moyillik)</li>
+        <li>Insoniy rishtalarning buzilishi</li>
+    </ul>
+</div>
+
+<div class="box">
+    <div class="category">😈 Ichimdagi Yovuz Fikrlar</div>
+    <ul>
+        <li>Men odamlarning niyatlarini ochiq o‘qishni yaxshi ko‘raman… ularni qanday qo‘rquv boshqarishini his qilib, undan foydalanaman.</li>
+        <li>Kimdir menga yomonlik qilsa… kechirish? Yo‘q. Yaxshi rejalangan qasos — bu mening tinchligim.</li>
+        <li>Atrofimdagilar mehr kutishadi… men esa ularning orzulari ustidan kulaman.</li>
+        <li>Men jim turaman… lekin bu jimlik — bo‘ron oldidan jimlik.</li>
+        <li>Dushmanlarim baxtli yashashmaydi… men ularni astalik bilan sindiraman.</li>
+        <li>Kim o‘zimni pastga tushirishga urinsa… men uni tubsiz chuqurlikka tortaman.</li>
+        <li>Men odamlarning zaif joylarini bilaman… va ularni kerak paytda qurolga aylantiraman.</li>
+        <li>Atrofdagilar meni e’tiborga olmaydi… lekin men hammasining xotirasida iz qoldiraman.</li>
+        <li>Sokinligimdan foydalanishmasin… men kulgim bilan ham odamlarni larzaga keltirishim mumkin.</li>
+        <li>Men doim shayman… va kerak bo‘lsa, eng yovuz g‘oyalarimni amalga oshirish uchun bir soniya ham o‘ylamayman.</li>
+    </ul>
+</div>
+
+<div class="footer">© 2025 Represalia World. Qorong‘ulik Ichida Qiroldir.</div>
+
+</body>
+</html>
